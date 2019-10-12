@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Comparison</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles/styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+        </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+        </script>
+        <script src="scripts/include.js">
+        </script>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><strong>Latitude</strong></a>
+            </div>
+    
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle navitem" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li class="navitem"><a href="temperature.html">Max Temperature</a></li>
+                            <li><a href="humidity.html">Humidity</a></li>
+                            <li><a href="cloudiness.html">Cloudiness</a></li>
+                            <li><a href="wind.html">Wind Speed</a></li>
+                        </ul>
+                    <li><a class="navitem" href="comparison.html">Comparisons</a></li>
+                    <li><a class="navitem" href="data.html">Data</a></li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+<div w3-include-html="nav.html"></div>
+
+<div class="container">
+    <div class="row">
+	    <div class="col-md-7 panel-heading">
+		    <div class="box">
+			    <h1>
+                    Comparisons: Latitude vs. X
+                </h1>
+                <hr>
+                <p>Click the plots below to get an in-depth analysis.</p>
+                <br>
+			    <div class="panel-body">
+				    <div class="container">
+					    <div class="row">
+						    <div class="col-md-6">
+							    <div class="mini-box">
+                                    <h4 class="selected">vs. Max Temperature</h4>
+                                    <a href="temperature.html">
+                                        <img class="home img-responsive" alt="plot of max temperatures" title="vs. Max Temperature" src="images/max-temp.png" />
+                                    </a>
+							    </div>
+							    <div class="mini-box">
+                                    <h4 class="selected">vs. Humidity</h4>
+                                    <a href="humidity.html">
+                                        <img class="home img-responsive" alt="plot of humidity" title="vs. Humidity" src="images/humidity.png" />
+                                    </a>
+							    </div>
+						    </div>
+						    <div class="col-md-6">
+							    <div class="mini-box">
+                                <h4 class="selected">vs. Cloudiness</h4>
+                                <a href="cloudiness.html">
+                                    <img class="home img-responsive" title="vs. Cloudiness" src="images/cloudiness.png" alt="plot of cloudiness" />
+                                </a>
+							</div>
+							<div class="mini-box">
+                                <h4 class="selected">vs. Wind Speed</h4>
+                                <a href="wind.html">
+                                    <img class="home img-responsive" alt="plot of wind speed" title="vs. Wind Speed" src="images/wind.png" />
+                                </a>
+							</div>
+					    </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

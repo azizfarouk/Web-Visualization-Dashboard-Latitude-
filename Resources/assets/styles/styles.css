@@ -1,0 +1,142 @@
+
+/* Here we define some styles that will ONLY be applied at screen sizes below 480 pixels */
+body {
+	background: lightgray;
+	color: black;
+}
+
+main.container {
+    padding-left: 5em;
+    padding-right: 5em;
+	width: auto;
+}
+
+.navbar {
+	background:white;
+	margin-right: 0px;
+	margin-left: 0px;
+	padding: 0px;
+}
+
+.navbar-right {
+	margin-right: 10em;
+}
+
+.navbar-brand {
+	background: #22A39F;
+}
+
+.page-footer {
+	color: #fff;
+    background: #212121;
+    padding: 25px 0px 25px 0px;
+}
+
+.panel-heading {
+	background: #fff;
+}
+
+.panel-body {
+	padding: 0px 0px 0px 0px;
+}
+
+.mini-box {
+	padding: 0px 0px 25px 0px;
+	margin-right: -10px;
+}
+
+a.navitem {
+	color:black !important;
+}
+
+a.navbar-brand {
+	color: #fff !important;
+}
+
+a.hover {
+	color: #fff !important;
+}
+
+div.panel-heading {
+	background-color: #fff !important;
+}
+
+img.wrap {
+	float: left;
+	margin: 10px;
+}
+
+img {
+	max-width: 95%;
+	height: auto;
+}
+
+.img-responsive {
+	display: block;
+	max-width: 90%;
+  	height: auto;
+}
+
+h1 {
+	font-size: 2em !important;
+	margin-bottom: 40px !important;
+	border-bottom: 5px !important;
+	color:#22A39F;
+}
+
+h3 {
+	text-align: center !important;
+	margin-bottom: 10px !important;
+}
+h3 {
+	text-align: center !important;
+	margin-bottom: 10px !important;
+	color:#22A39F;
+}
+
+.panel-title {
+	font-size: 20px;
+	text-align: center;
+	color:#22A39F;
+}
+
+.selected{
+	font-size: 20px;
+	text-align: center;
+	color:#22A39F;
+}
+
+@media (min-width: 992px) {
+   .col-md-4 {
+	flex: 0 0 41.666667%;
+	max-width: 100%;
+	float: right;
+}
+}
+
+img.thumb {
+   border: 1px solid #ddd;
+   border-radius: 4px;
+   padding: 5px;
+   width: 50%;
+}
+
+
+img:hover {
+   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.col-md-4{
+	background-color: white;
+	padding-top: 0px;
+	padding-bottom: 10px;
+	width: 34%;
+ }
+
+ .col-md-8{
+	width: 64%;
+ }
+
+ .col-md-7{
+	width: 98%;
+ }
